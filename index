@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deshi Spicy</title>
+  <style>
+    body { margin:0; background:#000; }
+    .feed { height:100vh; overflow-y:scroll; scroll-snap-type:y mandatory; }
+    .video { height:100vh; scroll-snap-align:start; position:relative; }
+    video { width:100%; height:100%; object-fit:cover; }
+    .caption { position:absolute; bottom:20px; left:20px; color:white; background:rgba(0,0,0,0.6); padding:10px; border-radius:8px; font-weight:bold; }
+  </style>
+</head>
+<body>
+  <div class="feed">
+    <div class="video">
+      <video autoplay loop muted playsinline>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+      <div class="caption">Bangladeshi Couple 🔥 #Teaser1</div>
+    </div>
+    <div class="video">
+      <video autoplay loop muted playsinline>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+      <div class="caption">Spicy Moment 💋 #Shorts</div>
+    </div>
+  </div>
+</body>
+</html>
